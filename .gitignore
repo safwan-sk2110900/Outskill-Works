@@ -1,1 +1,123 @@
 
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+.pnp.*
+vendor/
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# ==========================================
+# Build & Distribution
+# ==========================================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+coverage/
+*.tsbuildinfo
+
+# ==========================================
+# Cache & Temporary Files
+# ==========================================
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.turbo/
+.npm/
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+
+# ==========================================
+# Logs
+# ==========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# IDE & Editor Files
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# Testing
+# ==========================================
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+blob-report/
+
+# ==========================================
+# Local Databases
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================================
+# Docker Local Overrides
+# ==========================================
+docker-compose.override.yml
+compose.override.yml
+
+# ==========================================
+# Local AI / Agent Artifacts
+# ==========================================
+.claude/settings.local.json
+.cursor/cache/
+.aider*
+*.gguf
+*.safetensors
+
+# ==========================================
+# Miscellaneous
+# ==========================================
+*.bak
+*.backup
+*.old
+*.orig
+*.patch
+
