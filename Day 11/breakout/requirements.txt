@@ -1,0 +1,8 @@
+streamlit>=1.48
+langchain>=1.0
+langchain-core>=1.0
+langchain-openrouter>=0.1
+tavily-python>=0.5
+wikipedia>=1.4
+arxiv>=2.1
+pypdf>=4.0
